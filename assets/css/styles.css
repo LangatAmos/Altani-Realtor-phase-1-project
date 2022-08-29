@@ -1,6 +1,6 @@
 /* navigation links styling */
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Space Grotesk';
@@ -16,18 +16,29 @@ a {
 body{
     background-color: #FAFAFA;
     max-width: 100%;
+    max-width: 100rem;
 
 }
+#logo{
+    display: flex;
+}
 #name1{
-    font-style: italic;
+    
     padding-right: 100px;
-    font-size: 35px;
+    padding-top: 30px;
+}
+#name1>a{
     color: orangered;
+    font-size: 30px;
+    font-family: "Audiowide" !important;
+
 }
 .header{
     background-color: #ddd;
     display: flex;
     margin: 0 auto;
+    max-width: 100%;
+    border-radius: 15px;
 }
 .nav-links>li{
     list-style: none;
@@ -49,8 +60,42 @@ body{
 }
 #getstarted>a{
     color: white;
+    font-size: 25px;
 
 }
 #getstarted>a:hover{
     color: orangered;
+}
+
+/* heros secton styling */
+.heros{
+    background-image: url('/assets/images/Altani\ background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+.intro{
+    padding: 100px;
+    font-size: 35px;
+}
+#helping{
+    color: #2549D3;
+}
+#creating{
+    font-weight: bolder;
+    font-size: medium;
+}
+.btn{
+    padding: 15px;
+    background-color: orangered;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 15px;
+}
+.btn>a{
+    color: #fafafa;
+}
+.btn>a:hover{
+    color: #000;
 }
