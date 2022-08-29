@@ -1,0 +1,56 @@
+/* navigation links styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk';
+    max-width: 100%;
+}
+a { 
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Space Grotesk';
+    font-weight: 900;
+}
+body{
+    background-color: #FAFAFA;
+    max-width: 100%;
+
+}
+#name1{
+    font-style: italic;
+    padding-right: 100px;
+    font-size: 35px;
+    color: orangered;
+}
+.header{
+    background-color: #ddd;
+    display: flex;
+    margin: 0 auto;
+}
+.nav-links>li{
+    list-style: none;
+    padding: 30px;
+    background-color: #ddd;
+}
+.nav-links>li>a:hover{
+    color: orangered;
+}
+.nav-links{
+    display: flex;
+}
+#getstarted{
+    background-color: #2549D3;
+    border-radius: 10px;
+    font-size: x-large;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#getstarted>a{
+    color: white;
+
+}
+#getstarted>a:hover{
+    color: orangered;
+}
