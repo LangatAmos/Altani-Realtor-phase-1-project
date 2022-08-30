@@ -137,6 +137,7 @@ body{
 }
 .about-list{
     list-style: none;
+    text-align: left;
 }
 .about-item{
     display: flex;
@@ -157,4 +158,60 @@ body{
     font-size: 16px;
     padding-left: 0;
     margin-left: 0;
+}
+
+/* services secton styling*/
+.service{
+    background-color: #ddd;
+    margin: 0px;
+    margin-top: 150px;
+    height: 40rem;
+    border-radius: 10px;
+}
+.service-subheading{
+    color: orangered;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.service-heading{
+    font-size: 35px;
+    font-weight: 1000;
+    text-align: center;
+    color: #2549D3;
+}
+.service-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+    margin: 30px;
+}
+.service-list-item {
+    position: relative;
+    background: #FAFAFA;
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+}
+.service-list-heading{
+    font-size: 25px;
+    font-weight: 700;
+    color: #2549D3;
+}
+.material-symbols-outlined{
+    color: orangered;
+}
+.service-list-item>a{
+    color: grey;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 30px;
+}
+.service-list-item>a:hover{
+    color: #000;
 }
