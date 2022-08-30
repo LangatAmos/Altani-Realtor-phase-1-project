@@ -272,7 +272,7 @@ body{
     margin-inline: auto;
 }
 .cta-btn:is(:hover, :focus) {
-    background: none;
+    background: #000;
     color: #FAFAFA;
     border-color: transparent;
     cursor: pointer;
