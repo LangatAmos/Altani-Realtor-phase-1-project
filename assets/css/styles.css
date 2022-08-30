@@ -245,3 +245,38 @@ body{
     list-style: none;
     margin: 30px;
 }
+
+/* cta secton styling*/
+.cta{
+    background-color: #FAFAFA;
+    margin: 20px;
+    align-items: center;
+}
+.cta-card{
+    background-color: orangered;
+    color: #FAFAFA;
+    padding: 50px 25px;
+    max-width: 60rem;
+    display: flex;
+}
+.cta-card .card-title{
+    font-size: 28px;
+}
+.cta-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    background: #FAFAFA;
+    border-color: #FAFAFA;
+    margin-inline: auto;
+}
+.cta-btn:is(:hover, :focus) {
+    background: none;
+    color: #FAFAFA;
+    border-color: transparent;
+    cursor: pointer;
+}
+.cta-btn::before {
+    background: #000;
+}
