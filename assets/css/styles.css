@@ -1,3 +1,36 @@
+/* header top bar styling */
+.header-top{
+    background-color: #2549D3;
+    text-align: center;
+    height: 2rem;
+}
+.header-top-container{
+    display: flex;
+    list-style: none;
+}
+.header-top-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.header-top-list a{
+    color: #FAFAFA;
+}
+.header-top-list a:hover{
+    color: orangered;
+}
+.header-top-social-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.header-top-social-list a{
+    color: #FAFAFA;
+}
+.header-top-social-list a:hover{
+    color: orangered;
+}
+
 /* navigation links styling */
 *{
     margin: 0 auto;
