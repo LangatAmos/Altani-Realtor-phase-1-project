@@ -23,7 +23,7 @@ body{
     display: flex;
 }
 #name1{
-    
+    font-family: "Audiowide" !important;
     padding-right: 100px;
     padding-top: 30px;
 }
@@ -279,4 +279,67 @@ body{
 }
 .cta-btn::before {
     background: #000;
+}
+
+/* footer secton styling*/
+.footer{
+    background-color: #2549D3;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 30rem;
+}
+.footer-container{
+    padding-top: 40px;
+    display: flex;
+    color: #FAFAFA;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-item-list{
+    list-style: none;
+    line-height: 50px;
+}
+.footer-item-list a{
+    color: #FAFAFA;
+    font-size: 16px;
+
+}
+.footer-item-list a:hover{
+    color: orangered;
+}
+.contact-list{
+    list-style: none;
+    line-height: 40px;
+
+}
+.contact-list-item>a{
+    color: #FAFAFA;
+}
+.contact-list-item>a:hover{
+    color: orangered;
+}
+.social-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.social-list>li>a{
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #FAFAFA;
+}
+.social-list>li>a:hover{
+    color: orangered;
+}
+/* footer bottom styling */
+.footer-bottom{
+    background-color: #ddd;
+    padding: 40px;
+    text-align: center;
 }
