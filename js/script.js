@@ -8,3 +8,10 @@ function headerStick() {
         header.classList.remove("sticky");
     }
 }
+
+ // toggle between element classes
+
+$(".menu-btn").click(function () {
+    $(".navbar .nav-links").toggleClass("active");
+    $(".menu-btn i").toggleClass("active");
+});
