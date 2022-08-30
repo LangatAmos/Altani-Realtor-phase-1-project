@@ -26,6 +26,10 @@
 }
 .header-top-container{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
     list-style: none;
 }
 .header-top-list{
@@ -86,6 +90,8 @@ body{
 .header{
     background-color: #ddd;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     margin: 0 auto;
     max-width: 100%;
     border-radius: 15px;
@@ -156,6 +162,8 @@ body{
 
 .container{
     display: flex;
+    align-items: center;
+    gap: 100px;
     margin: 50px;
     margin-top: 150px;
 }
@@ -192,8 +200,6 @@ body{
 }
 .about-item{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     gap: 10px;
     margin-bottom: 15px;
 }
