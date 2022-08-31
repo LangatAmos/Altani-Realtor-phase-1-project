@@ -74,7 +74,7 @@
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
         </div>
-        <button id="getstarted"><a href="#getstarted">Get Started</a></button>
+        <button id="getstarted" class="menu-btn"><a href="#inquiries">Get Started</a></button>
     </div> 
 
     <!-- Hero's main content -->
@@ -83,7 +83,7 @@
                 <h1 id="helping">Helping you find<br>your Dream<br>Home</h1>
                 <p id="creating">Creating quality urban lifestyles, <br>building Stronger <br>communities</h2>
                     <div>
-                        <button class="btn"><a>Make An Enquiry</a></button> 
+                        <button class="btn menu-btn"><a href="#inquiries">Make An Enquiry</a></button> 
                     </div>
         </div> 
     </section>
@@ -258,6 +258,34 @@
             </div>
         </div>
     </section>
+    <!-- make an inquiry section -->
+    
+    <div class="make-inquiry" id="inquiries">
+        <div class="property-list-heading">Reach out to us for any inqiries</div>
+        <form class="make-inquiry-form" action="https://formsubmit.co/altani@gmail.com" 
+        method="POST">
+            <input type="hidden" name="_subject" value="New Message">
+            <div class="fields">
+                <div class="field-name">
+                    <input type="text" placeholder="name" name= "name" required>
+                </div>
+                <div class="field-email">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+            </div>
+            <div class="field-textarea">
+                <textarea cols="100" rows="15" name= "description" placeholder="write your message here..." required></textarea>
+            </div>
+            <div class="submit-button">
+                <button class="btn-2 submit-button" type="submit">Submit inquiry</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
     <!-- footer section -->
     <footer class="footer">
         <div class="footer-container">
