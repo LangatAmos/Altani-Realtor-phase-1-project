@@ -11,13 +11,20 @@ const options = {
     return fetch('https://realty-in-ca1.p.rapidapi.com/properties/list-residential?LatitudeMax=81.14747595814636&LatitudeMin=-22.26872153207163&LongitudeMax=-10.267941690981388&LongitudeMin=-136.83037765324116&CurrentPage=1&RecordsPerPage=10&SortOrder=A&SortBy=1&CultureId=1&NumberOfDays=0&BedRange=0-0&BathRange=0-0&RentMin=0', options)
 	.then(response => response.json())
 	.then((data) => {
-        //return renderProperty(response);
-        console.log(data);
+		return renderData(data);
+        //console.log(data);
     })
 	.catch(err => console.error(err));
 
 }
-console.log(fetchData());
+//console.log(fetchData());
+function renderData(books) {
+	const ul = document.querySelector(".property-list")
+	for (let prperty of data) {
+		const li = document.querySelector(".property-card")
+		li.innerHTML = data.title;
+	}
+}
 
 
 //creating sticky navbar 
