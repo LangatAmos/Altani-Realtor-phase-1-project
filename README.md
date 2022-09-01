@@ -2,7 +2,7 @@
 Writer: Amos Langat
 
 ## Live link
-
+https://langatamos.github.io/Altani-Realtor-phase-1-project
 
 ## Table of Content
 1. Description
